@@ -1,0 +1,13 @@
+@import '../sass/base/variables';
+
+*	{
+		font-family: 'Museo', sans-serif;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+@import '../sass/blocks/promo';
+@import '../sass/blocks/header'
