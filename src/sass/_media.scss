@@ -71,3 +71,37 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 60px;
+        }
+        .button_main {
+            width: 220px;
+            height: 35px;
+            font-size: 14px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    .preference {
+
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+        &__item {
+            margin-top: 25px;
+        }
+
+}
+}

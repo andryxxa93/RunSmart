@@ -1,7 +1,6 @@
 {
   "name": "fitnes",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +20,16 @@
     "defaults",
     "not IE 11",
     "not IE_Mob 11",
-    "maintained node versions",
-  ]
+    "maintained node versions"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andryxxa93/RunSmart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andryxxa93/RunSmart/issues"
+  },
+  "homepage": "https://github.com/andryxxa93/RunSmart#readme",
+  "description": ""
 }
