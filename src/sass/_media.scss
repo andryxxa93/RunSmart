@@ -77,6 +77,36 @@
             font-size: 12px;
         }
     }
+    .consultation {
+        padding: 50px 0 50px 0;
+        min-height: 450px;
+        background: url(../img/consultation_bg.png) center center/cover no-repeat fixed;
+        .title {
+            &_left {
+                font-size: 26px;
+            }
+        }
+        &__dscr {
+            margin-top: 48px;
+            font-size: 19px;
+        }
+        .feed-form {
+            margin-top: 19px;
+            width: 290px;
+            input {
+                height: 45px;
+                margin-bottom: 10px;
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+            }
+            .button_submit {
+                height: 40px;
+                font-size: 15px;
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 603px) {
@@ -114,6 +144,26 @@
             font-size: 11px;
         }
     }
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 22px;
+            }
+        }
+        &__dscr {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 48px;
+            font-size: 16px;
+            width: 260px;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 19px;
+            width: 250px;
+        }
+    }
 }
 
 @media (max-width: 425px) {
@@ -146,8 +196,16 @@
         &__item {
             margin-top: 25px;
         }
-
 }
+    .consultation {
+        .title {
+            &_left {
+                margin: 0 auto;
+                width: 300px;
+                font-size: 18px;
+            }
+        }
+    }
 }
 @media (max-width: 375px) {
     .promo {
@@ -185,17 +243,6 @@
     }
     
 }
-@media (max-width: 375px) {
-    .promo {
-        &__header {
-            font-size: 23px;
-            line-height: 20px;
-        }
-        &__subheader {
-            font-size: 14px;
-        }
-    }
-}
 
 @media (max-width: 320px) {
     .promo {
@@ -228,5 +275,12 @@
             font-size: 18px;
         }
     }
-    
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+    }
 }
