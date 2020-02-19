@@ -8,23 +8,10 @@
 //             {
 //                 breakpoint: 992,
 //                 settings: {
-//                   dots: true,
-//                   arrows: false
+//                 dots: true,
+//                 arrows: false
 //                 }
 //             }
 //         ]
-//       });
-//   });
-    const slider = tns({
-        container: '.carousel__inner',
-        items: 1,
-        slideBy: 'page',
-        autoplay: false,
-        controls: false,
-    });
-    document.querySelector('.prev').onclick = function () {
-        slider.goTo('prev');
-      };
-      document.querySelector('.next').onclick = function () {
-        slider.goTo('next');
-      };
+//     });
+// });
