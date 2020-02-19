@@ -15,13 +15,16 @@
 //         ]
 //       });
 //   });
-var slider = tns({
-    container: '.carousel__inner',
-    items: 1,
-    slideBy: 'page',
-    autoplay: true,
-    controlsText: [
-        '<img src="icon/left_arrow.svg">',
-        '<img src="icon/right_arrow.svg">'
-    ]
-  });
+    const slider = tns({
+        container: '.carousel__inner',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        controls: false,
+    });
+    document.querySelector('.prev').onclick = function () {
+        slider.goTo('prev');
+      };
+      document.querySelector('.next').onclick = function () {
+        slider.goTo('next');
+      };
