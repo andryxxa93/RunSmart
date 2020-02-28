@@ -156,6 +156,25 @@
             width: 100%;
         }
     }
+    .footer {
+        &__info {
+            padding: 20px 50px 20px 50px;
+            width: 320px;
+            height: 190px;
+        }
+        &__addr {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        &__phone {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+        }
+    }
     
 }
 
