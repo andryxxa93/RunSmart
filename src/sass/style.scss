@@ -1,4 +1,5 @@
 @import '../sass/base/variables';
+@import '../sass/base/animation';
 
 *	{
 		font-family: 'Museo', sans-serif;
@@ -22,4 +23,5 @@
 @import '../sass/blocks/review';
 @import '../sass/blocks/footer';
 @import '../sass/blocks/modal';
+@import '../sass/blocks/pageup';
 @import '../sass/media';

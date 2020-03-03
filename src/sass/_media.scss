@@ -175,6 +175,25 @@
             height: 40px;
         }
     }
+    .overlay {
+        .modal {
+            padding: 28px 35px 28px 35px;
+            width: 357px;
+            min-height: 350px;
+            &__subtitle {
+                font-size: 16px;
+            }
+            &__dscr {
+                font-size: 14px;
+            }
+            .feed-form {
+                width: 287px;
+                .button {
+                    height: 46px;
+                }
+            }
+        }
+    }
     
 }
 
@@ -348,6 +367,39 @@
             font-size: 12px;
         }
     }
+    .overlay {
+        .modal {
+            padding: 20px 30px 20px 30px;
+            width: 357px;
+            min-height: 300px;
+            &__subtitle {
+                font-size: 16px;
+            }
+            &__dscr {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            .feed-form {
+                margin: 0 auto;
+                // margin-top: 15px;
+                width: 287px;
+                input {
+                    height: 40px;
+                }
+                .button {
+                    font-size: 12px;
+                    height: 40px;
+                }
+            }
+            &__close {
+                position: absolute;
+                top: 0;
+                right: -25px;
+                font-size: 33px;
+                line-height: 15px;
+            }
+        }
+    }
 }
 @media (max-width: 375px) {
     .promo {
@@ -400,6 +452,34 @@
             height: 33px;
         }
     }
+    .overlay {
+        .modal {
+            padding: 20px 30px 20px 30px;
+            width: 300px;
+            min-height: 300px;
+            &__dscr {
+                margin-bottom: 20px;
+            }
+            .feed-form {
+                margin: 0 auto;
+                // margin-top: 15px;
+                width: 240px;
+                input {
+                    height: 40px;
+                }
+                .button {
+                    height: 40px;
+                }
+            }
+            &__close {
+                position: absolute;
+                top: 0;
+                right: -25px;
+                font-size: 33px;
+                line-height: 15px;
+            }
+        }
+    }
     
 }
 
@@ -439,6 +519,38 @@
             &_left {
                 text-align: center;
                 font-size: 18px;
+            }
+        }
+    }
+    .overlay {
+        .modal {
+            padding: 10px 15px 10px 15px;
+            width: 240px;
+            min-height: 280px;
+            &__subtitle {
+                text-transform: uppercase;
+            }
+            &__dscr {
+                font-size: 13px;
+                margin-bottom: 20px;
+            }
+            .feed-form {
+                margin: 0 auto;
+                // margin-top: 15px;
+                width: 210px;
+                input {
+                    height: 40px;
+                }
+                .button {
+                    height: 40px;
+                }
+            }
+            &__close {
+                position: absolute;
+                top: 0;
+                right: -25px;
+                font-size: 33px;
+                line-height: 15px;
             }
         }
     }
