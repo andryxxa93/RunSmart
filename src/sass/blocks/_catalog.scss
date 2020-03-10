@@ -88,7 +88,7 @@
             margin-top: 19px;
             margin-bottom: 21px;
             border-bottom: none;
-            width: 260px;
+            width: 250px;
             height: 1px;
             background-color: #e8e8e8;
         }
@@ -122,16 +122,19 @@
                 margin-right: 20px;
             }
         }
-        &__list {
+        &__lists {
+            // margin-left: 20px;
             position: relative;
             width: 50%;
-            margin-left: 20px;
             transform: translateX(0%);
-            padding-right: 20px;
             transition: 0.5s all;
-            padding-left: 19px;
             margin-bottom: 0;
+        }
+        &__list {
+            padding-right: 20px;
+            position: relative;
             list-style-type: none;
+            padding-left: 19px;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
