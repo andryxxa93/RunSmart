@@ -48,6 +48,14 @@ $(document).ready(function(){
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
 
+    // function delayAnimateCatalog() {
+    //     let catalog = $('.catalog-item');
+    //     catalog.hide().each(function(i) {
+    //         $(this).attr('data-wow-delay', i + 's');
+    //     })
+    // }
+    // delayAnimateCatalog();
+
 //Modal
 
 $('[data-modal=consultation]').on('click', function() {
